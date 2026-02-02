@@ -1,0 +1,15 @@
+import numpy as np
+
+array = np.array([[1, 2, 3], [4, 5, 6]])
+
+print("Array:")
+print(array)
+
+print("\nArray Characteristics:")
+print(f"Shape: {array.shape}")        # Shape of the array
+print(f"Size: {array.size}")          # Total number of elements
+print(f"Dimensions: {array.ndim}")    # Number of dimensions
+print(f"Data Type: {array.dtype}")    # Data type of elements
+print(f"Item Size: {array.itemsize} bytes")  # Memory size of one element
+print(f"Total Memory: {array.nbytes} bytes") # Total memory consumed
+
